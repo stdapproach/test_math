@@ -23,6 +23,22 @@ py_test(
 )
 
 py_test(
+   name = "multiplication_test",
+   srcs = ["test/multiplication_test.py"],
+   deps = [
+        ":py1",
+    ],
+)
+
+py_test(
+   name = "division_test",
+   srcs = ["test/division_test.py"],
+   deps = [
+        ":py1",
+    ],
+)
+
+py_test(
    name = "py1_test",
    srcs = ["py1_test.py"],
    deps = [
