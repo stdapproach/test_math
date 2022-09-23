@@ -15,6 +15,14 @@ py_test(
 )
 
 py_test(
+   name = "conjugate_test",
+   srcs = ["test/conjugate_test.py"],
+   deps = [
+        ":py1",
+    ],
+)
+
+py_test(
    name = "py1_test",
    srcs = ["py1_test.py"],
    deps = [
