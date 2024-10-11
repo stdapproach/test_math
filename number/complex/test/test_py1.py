@@ -2,7 +2,7 @@ import unittest
 
 import py1
 
-class SimplisticTest(unittest.TestCase):
+class SimplisticTest2(unittest.TestCase):
     def test(self):
         actual = py1.foo()
         expected = 42

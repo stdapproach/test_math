@@ -1,1 +1,4 @@
 bazel-*
+.bazelproject
+.blaze
+.idea

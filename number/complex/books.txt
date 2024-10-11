@@ -1,0 +1,37 @@
+#list of books mentioned at tests for complex numbers
+
+Alan, Jeffrey
+Advanced Engineering Mathematics
+Copyright @ 2002 by HARCOURT/ACADEMIC PRESS
+International Standard Book Number: 0-12-382592-X
+
+Andreescu, T • Andrica, D
+Complex Numbers from A to ... Z, Second Edition
+ISBN 978-0-8176-8414-3
+
+Bird, John
+Higher Engineering Mathematics, Sixth Edition
+ISBN: 978-1-85-617767-2
+
+Brown, James Ward.
+Complex Variables and Applications, 9th Edition
+ISBN 978-0-07-338317-0
+
+Taylor, Joseph L.,
+Complex variables / Joseph L. Taylor.
+ISBN 978-0-8218-6901-7 (alk. paper)
+
+Zill, Dennis G.
+A first course in complex analysis with applications / Dennis G. Zill, Patrick D. Shanahan.
+Copyright © 2003 by Jones and Bartlett Publishers, Inc.
+ISBN 0-7637-1437-2
+
+Riley, K.F.
+Mathematical Methods for Physics and Engineering Third Edition
+© K. F. Riley, M. P. Hobson and S. J. Bence 2006
+ISBN-13 978-0-511-16842-0
+
+Wunsch, David A.
+A MATLAB® COMPANION to COMPLEX VARIABLES
+© 2016 by Taylor & Francis Group, LLC
+International Standard Book Number-13: 978-1-4987-5568-9 (eBook - PDF)

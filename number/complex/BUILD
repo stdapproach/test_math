@@ -1,64 +1,67 @@
 py_binary(
     name = "py1",
-    srcs = [
-        "py1.py",
-        "utils/complex_utils.py"
-    ],
+    srcs = ["py1.py"],
 )
 
 py_test(
-   name = "add_test",
-   srcs = ["test/add_test.py"],
-   deps = [
-        ":py1",
-    ],
+   name = "test_eq",
+   srcs = ["test/test_eq.py"],
+   deps = [":py1"],
+   imports = ["."],
 )
 
 py_test(
-   name = "conjugate_test",
-   srcs = ["test/conjugate_test.py"],
-   deps = [
-        ":py1",
-    ],
+   name = "test_add",
+   srcs = ["test/test_add.py"],
+   deps = [":py1"],
+   imports = ["."],
 )
 
 py_test(
-   name = "multiplication_test",
-   srcs = ["test/multiplication_test.py"],
-   deps = [
-        ":py1",
-    ],
+   name = "test_conj",
+   srcs = ["test/test_conj.py"],
+   deps = [":py1"],
+   imports = ["."],
 )
 
 py_test(
-   name = "division_test",
-   srcs = ["test/division_test.py"],
-   deps = [
-        ":py1",
-    ],
+   name = "test_mul",
+   srcs = ["test/test_mul.py"],
+   deps = [":py1"],
+   imports = ["."],
 )
 
 py_test(
-   name = "py1_test",
-   srcs = ["py1_test.py"],
-   deps = [
-        ":py1",
-    ],
+   name = "test_div",
+   srcs = ["test/test_div.py"],
+   deps = [":py1"],
+   imports = ["."],
 )
 
 py_test(
-   name = "complex_utils_test",
-   srcs = ["test/complex_utils_test.py"],
-   main = "test/complex_utils_test.py",
-   deps = [
-        ":py1",
-    ],
+   name = "test_polar",
+   srcs = ["test/test_polar.py"],
+   deps = [":py1"],
+   imports = ["."],
 )
 
 py_test(
-   name = "py2_test",
-   srcs = ["test/py2_test.py"],
-   deps = [
-        ":py1",
-    ],
+   name = "test_pow",
+   srcs = ["test/test_pow.py"],
+   deps = [":py1"],
+   imports = ["."],
+)
+
+py_test(
+   name = "test_root",
+   srcs = ["test/test_root.py"],
+   deps = [":py1"],
+   imports = ["."],
+)
+
+py_test(
+   name = "test_ln",
+   srcs = ["test/test_ln.py"],
+   deps = [":py1"],
+   imports = ["."],
 )
