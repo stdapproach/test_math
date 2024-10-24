@@ -37,7 +37,8 @@ class Example:
 
 
 def calc(example, t_stop=None):
-    t = np.linspace(example.model.t0, t_stop if t_stop is not None else example.sol_ref.t_stop)
+    num = 100
+    t = np.linspace(example.model.t0, t_stop if t_stop is not None else example.sol_ref.t_stop, num=num)
     ref_sol = [example.sol_ref.func(x) for x in t]
 
     # solve ODEs

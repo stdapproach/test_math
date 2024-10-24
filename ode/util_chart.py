@@ -12,6 +12,12 @@ def show_result(solution, x_axis, y_axis, title_solution, ref_solution):
     #
     fig, ax1 = plt.subplots()
     ax1.set_title(book_ref)
+    #
+    dimensions = y1.shape
+    _, columns = dimensions
+    if columns > 1:
+        y1 = y1[:, 0]
+    #
     ax1.plot(t,y1,'g-',linewidth=2,label=f'{title_solution}')
     ax1.plot(t,ref,'b--',linewidth=2,label=f'{ref_solution}')
     plt.xlabel(x_axis)
